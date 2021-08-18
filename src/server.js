@@ -21,6 +21,9 @@ const validator = require('./middleware/validator')
 const foodRouter = require('./routes/food')
 app.use(foodRouter)
 
+const clothesRouter = require('./routes/clothes')
+app.use(clothesRouter)
+
 app.use(logger);
 // app.use(validator);s
 

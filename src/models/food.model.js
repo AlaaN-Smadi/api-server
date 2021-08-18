@@ -15,6 +15,7 @@ const Food = (sequelize, DataTypes) => sequelize.define('Food', {
         type: DataTypes.STRING,
         // allowNull: false,
     },
+    
 });
 
 module.exports = Food;
